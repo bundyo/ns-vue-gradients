@@ -1,8 +1,6 @@
 <template>
 	<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onPageLoaded">
-		<ActionBar>
-			<ActionBar title="Gradients" />
-		</ActionBar>
+		<ActionBar class="action-bar" title="Gradients" />
 		<ScrollView>
 			<StackLayout>
 				<StackLayout class="bottom-gradient" height="200" marginTop="16">
@@ -44,6 +42,7 @@ Label {
 }
 
 .bottom-gradient {
+	border-radius: 20;
     background: linear-gradient(to bottom, orangered, green, lightblue);
 }
 

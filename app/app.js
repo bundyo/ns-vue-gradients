@@ -1,4 +1,5 @@
 import './vendor';
+import './app.css';
 
 import Vue from 'nativescript-vue';
 
